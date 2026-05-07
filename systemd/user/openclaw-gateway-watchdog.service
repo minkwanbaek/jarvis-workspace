@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch OpenClaw gateway outage duration and alert after 30 minutes
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env bash /home/javajinx7/.openclaw/workspace/scripts/check_gateway_outage.sh

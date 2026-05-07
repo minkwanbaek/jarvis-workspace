@@ -1,0 +1,13 @@
+.openclaw/
+.clawhub/
+tmp/
+__pycache__/
+*.pyc
+archive/
+reports/
+.env
+**/.env
+memory/*password*
+memory/*secret*
+memory/*token*
+memory/*smtp*
